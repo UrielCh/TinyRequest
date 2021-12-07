@@ -68,7 +68,7 @@ function toOption(options: https.RequestOptions | string | URL): https.RequestOp
         options = new URL(options);
     }
     if (options instanceof URL) {
-        return { host: options.host, hostname: options.hostname, port: options.port, protocol: options.protocol, path: options.pathname, method: 'GET' };
+        return { hostname: options.hostname, port: options.port, protocol: options.protocol, path: options.pathname, method: 'GET' };
     } else {
         return options;
     }
