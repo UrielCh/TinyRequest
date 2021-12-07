@@ -1,4 +1,4 @@
 node_modules/
 pnpm-lock.yaml
-index.js
-index.d.ts
+*.js
+*.d.ts
