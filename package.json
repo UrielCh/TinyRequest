@@ -1,5 +1,5 @@
 {
-  "name": "tinyrequest",
+  "name": "@u4/tinyrequest",
   "version": "0.1.0",
   "description": "A tiny http request api for node",
   "main": "TinyRequest.js",

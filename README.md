@@ -39,8 +39,3 @@ let req = await TinyRequest.put('http://domain/path', {form: {text: 'text payloa
 - Only work in nodeJS.
 - Only throw error on connection Error.
 - All response are handle as success, so always check the response code.
-
-
-
-
-
